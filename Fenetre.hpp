@@ -8,10 +8,6 @@ class Fenetre : public Gtk::Window {
     public :
         Fenetre();
     
-    protected :
-        void afficherTitre();
-        
-        Gtk::CheckButton caseCocher;
 };
 
 #endif
